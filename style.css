@@ -1,0 +1,43 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+form{
+    background-color: white;
+    padding: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+form label{
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+form input{
+    width: 350px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+#submit{
+    margin-top: 20px;
+}
